@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Footer } from './layout/NavbarAndFooter/Footer';
 import { Carousel } from './layout/NavbarAndFooter/HomePage/Carousel';
 import { ExploreTopBooks } from './layout/NavbarAndFooter/HomePage/ExploreTopBooks';
 import { Heros } from './layout/NavbarAndFooter/HomePage/Heros';
@@ -14,6 +15,7 @@ function App() {
       <Carousel />
       <Heros />
       <LibraryServices />
+      <Footer />
     </div>
 
 
