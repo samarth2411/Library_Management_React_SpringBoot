@@ -1,5 +1,7 @@
 import { ReturnBook } from "./ReturnBook";
 
+
+
 export const Carousel = () => {
     return (
         <div className='container mt-5' style={{ height: 550 }}>
@@ -45,7 +47,7 @@ export const Carousel = () => {
             <div className='d-lg-none mt-3'>
                 <div className='row d-flex justify-content-center align-items-center'>
                     <div className='text-center'>
-                        <img src={require('./../../../Images/BooksImages/book-luv2code-1000.png')} width='151' height='233' alt="book" />
+                        <img src={require('./../../../../Images/BooksImages/book-luv2code-1000.png')} width='151' height='233' alt="book" />
                         <h6 className='mt-2'>
                             <b>Book</b>
                         </h6>
